@@ -4,7 +4,7 @@ import './App.css';
 // import UseEffectExample from './components/useEffectExample'
 import UseReducerExample from './components/useReducerExample'
 // import UseRefExample from './components/useRefExample'
-import UseMemoExample from './components/useMemoExample'
+//import UseMemoExample from './components/useMemoExample'
 
 function App() {
   return (
