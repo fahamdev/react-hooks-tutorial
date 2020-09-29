@@ -11,8 +11,8 @@ const fibonacci = n => {
 const Index = () => {
   const [showDefaultTextColour, setDefaultTextColour] = useState(true)
   const [number, setNumber] = useState(1)
-  const fib = fibonacci(number)
-  // const fib = useMemo(() => fibonacci(number), [number])
+  // const fib = fibonacci(number)
+  const fib = useMemo(() => fibonacci(number), [number])
 
   return (
     <div className="ui grid centered">
